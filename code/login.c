@@ -18,7 +18,7 @@ int main() {
         printf("로그인 성공!\n");
         printf("환영합니다, %s 님.\n", id);
     } else {
-        printf("로그인 실패! 비밀번호가 틀렸습니다.\n");
+        printf("로그인 실패했습니다. 비밀번호가 올바른지 확인해주세요.\n");
     }
 
     return 0;
